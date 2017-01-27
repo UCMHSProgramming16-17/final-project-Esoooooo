@@ -1,0 +1,48 @@
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Bokeh Plot</title>
+        
+<link rel="stylesheet" href="https://cdn.pydata.org/bokeh/release/bokeh-0.12.4.min.css" type="text/css" />
+        
+<script type="text/javascript" src="https://cdn.pydata.org/bokeh/release/bokeh-0.12.4.min.js"></script>
+<script type="text/javascript">
+    Bokeh.set_log_level("info");
+</script>
+        <style>
+          html {
+            width: 100%;
+            height: 100%;
+          }
+          body {
+            width: 90%;
+            height: 100%;
+            margin: auto;
+          }
+        </style>
+    </head>
+    <body>
+        
+        <div class="bk-root">
+            <div class="bk-plotdiv" id="a97a097f-c72e-45d7-b920-8a569efe2946"></div>
+        </div>
+        
+        <script type="text/javascript">
+            (function() {
+          var fn = function() {
+            Bokeh.safely(function() {
+              var docs_json = {"8a89063f-a168-45c3-a870-2d25e3d5df2c":{"roots":{"references":[{"attributes":{},"id":"ae5b8092-74f1-45d7-9607-8dc9dc97721b","type":"BasicTickFormatter"},{"attributes":{"fill_alpha":{"value":0.7},"fill_color":{"value":"green"},"line_color":{"value":"green"},"size":{"units":"screen","value":8},"x":{"field":"x_values"},"y":{"field":"y_values"}},"id":"7cbf098b-f52e-434b-a77e-9c9e31a8d0d3","type":"Circle"},{"attributes":{},"id":"6bcbf666-f13e-4d1c-9c4b-ba4992cd62ee","type":"ToolEvents"},{"attributes":{"below":[{"id":"9bbb9edb-df44-4f5d-8b3d-308a041ac986","type":"CategoricalAxis"}],"css_classes":null,"left":[{"id":"47e17222-4301-45fb-b463-08dffc9a2d18","type":"LinearAxis"}],"renderers":[{"id":"2ef51997-6edb-441a-8774-0631afea99c5","type":"BoxAnnotation"},{"id":"cf8a5726-ee82-426e-8f5a-de3147fb9b7d","type":"GlyphRenderer"},{"id":"e2c6c0c1-8f60-4c88-8ee1-5725b3e4706f","type":"Legend"},{"id":"9bbb9edb-df44-4f5d-8b3d-308a041ac986","type":"CategoricalAxis"},{"id":"47e17222-4301-45fb-b463-08dffc9a2d18","type":"LinearAxis"},{"id":"6d004b80-3621-44b0-a355-816670e9a25b","type":"Grid"},{"id":"a4978cb5-92d4-45d7-a110-677377696d1e","type":"Grid"}],"title":{"id":"3e05b51f-fccf-4983-b205-253f20150383","type":"Title"},"tool_events":{"id":"6bcbf666-f13e-4d1c-9c4b-ba4992cd62ee","type":"ToolEvents"},"toolbar":{"id":"da634676-a74e-4765-8ea5-f019c09de7cd","type":"Toolbar"},"x_mapper_type":"auto","x_range":{"id":"1158149a-bebb-4be5-8c36-9f0472c1a562","type":"FactorRange"},"y_mapper_type":"auto","y_range":{"id":"d674a386-bc25-4993-9302-6eee9edd31e4","type":"Range1d"}},"id":"bb622def-8156-419a-ab4b-004cc40cf4fb","subtype":"Chart","type":"Plot"},{"attributes":{"plot":null,"text":"MLB2008Stats"},"id":"3e05b51f-fccf-4983-b205-253f20150383","type":"Title"},{"attributes":{"data_source":{"id":"e0383a16-68b0-4fa1-af5e-1115ea54e7fe","type":"ColumnDataSource"},"glyph":{"id":"7cbf098b-f52e-434b-a77e-9c9e31a8d0d3","type":"Circle"},"hover_glyph":null,"nonselection_glyph":null,"selection_glyph":null},"id":"cf8a5726-ee82-426e-8f5a-de3147fb9b7d","type":"GlyphRenderer"},{"attributes":{"active_drag":"auto","active_scroll":"auto","active_tap":"auto","tools":[{"id":"dd4133c4-6b18-45e5-bdff-a9edb8c6ef22","type":"PanTool"},{"id":"cc588561-45a0-4e92-9512-100edf67ef0e","type":"WheelZoomTool"},{"id":"728f298e-84cc-4925-a115-68d69d797939","type":"BoxZoomTool"},{"id":"2743f67d-f857-4a15-bd9c-d6c17a4924c6","type":"SaveTool"},{"id":"28f237a1-dcca-4bff-82dd-ce7ddfda5639","type":"ResetTool"},{"id":"8ba2d113-545f-440d-b87a-6b8358f20fdc","type":"HelpTool"}]},"id":"da634676-a74e-4765-8ea5-f019c09de7cd","type":"Toolbar"},{"attributes":{"bottom_units":"screen","fill_alpha":{"value":0.5},"fill_color":{"value":"lightgrey"},"left_units":"screen","level":"overlay","line_alpha":{"value":1.0},"line_color":{"value":"black"},"line_dash":[4,4],"line_width":{"value":2},"plot":null,"render_mode":"css","right_units":"screen","top_units":"screen"},"id":"2ef51997-6edb-441a-8774-0631afea99c5","type":"BoxAnnotation"},{"attributes":{"dimension":1,"plot":{"id":"bb622def-8156-419a-ab4b-004cc40cf4fb","subtype":"Chart","type":"Plot"},"ticker":{"id":"ead1788f-0575-41c9-824d-f5cb504fcda3","type":"BasicTicker"}},"id":"a4978cb5-92d4-45d7-a110-677377696d1e","type":"Grid"},{"attributes":{},"id":"af6fd682-3158-4584-818d-fcc548e9f956","type":"CategoricalTickFormatter"},{"attributes":{"axis_label":"PLAYER","formatter":{"id":"af6fd682-3158-4584-818d-fcc548e9f956","type":"CategoricalTickFormatter"},"major_label_orientation":0.7853981633974483,"plot":{"id":"bb622def-8156-419a-ab4b-004cc40cf4fb","subtype":"Chart","type":"Plot"},"ticker":{"id":"edadf5e8-08e7-437f-8268-3f393cecf62e","type":"CategoricalTicker"}},"id":"9bbb9edb-df44-4f5d-8b3d-308a041ac986","type":"CategoricalAxis"},{"attributes":{},"id":"ead1788f-0575-41c9-824d-f5cb504fcda3","type":"BasicTicker"},{"attributes":{"plot":{"id":"bb622def-8156-419a-ab4b-004cc40cf4fb","subtype":"Chart","type":"Plot"}},"id":"dd4133c4-6b18-45e5-bdff-a9edb8c6ef22","type":"PanTool"},{"attributes":{"callback":null,"column_names":["x_values","y_values"],"data":{"chart_index":[null,null,null,null,null,null,null,null,null,null],"x_values":["Ken Griffey","Ivan Rodriguez","Raul Ibanez","Albert Pujols","Robinson Cano","Melky Cabrera","Xavier Nady","Derek Jeter","Hideki Matsui","Jorge Posada"],"y_values":[18,7,23,37,14,8,25,11,9,3]}},"id":"e0383a16-68b0-4fa1-af5e-1115ea54e7fe","type":"ColumnDataSource"},{"attributes":{"plot":{"id":"bb622def-8156-419a-ab4b-004cc40cf4fb","subtype":"Chart","type":"Plot"}},"id":"cc588561-45a0-4e92-9512-100edf67ef0e","type":"WheelZoomTool"},{"attributes":{"axis_label":"HR","formatter":{"id":"ae5b8092-74f1-45d7-9607-8dc9dc97721b","type":"BasicTickFormatter"},"plot":{"id":"bb622def-8156-419a-ab4b-004cc40cf4fb","subtype":"Chart","type":"Plot"},"ticker":{"id":"ead1788f-0575-41c9-824d-f5cb504fcda3","type":"BasicTicker"}},"id":"47e17222-4301-45fb-b463-08dffc9a2d18","type":"LinearAxis"},{"attributes":{"overlay":{"id":"2ef51997-6edb-441a-8774-0631afea99c5","type":"BoxAnnotation"},"plot":{"id":"bb622def-8156-419a-ab4b-004cc40cf4fb","subtype":"Chart","type":"Plot"}},"id":"728f298e-84cc-4925-a115-68d69d797939","type":"BoxZoomTool"},{"attributes":{"location":"top_left","plot":{"id":"bb622def-8156-419a-ab4b-004cc40cf4fb","subtype":"Chart","type":"Plot"}},"id":"e2c6c0c1-8f60-4c88-8ee1-5725b3e4706f","type":"Legend"},{"attributes":{"plot":{"id":"bb622def-8156-419a-ab4b-004cc40cf4fb","subtype":"Chart","type":"Plot"}},"id":"2743f67d-f857-4a15-bd9c-d6c17a4924c6","type":"SaveTool"},{"attributes":{"plot":{"id":"bb622def-8156-419a-ab4b-004cc40cf4fb","subtype":"Chart","type":"Plot"}},"id":"28f237a1-dcca-4bff-82dd-ce7ddfda5639","type":"ResetTool"},{"attributes":{"plot":{"id":"bb622def-8156-419a-ab4b-004cc40cf4fb","subtype":"Chart","type":"Plot"}},"id":"8ba2d113-545f-440d-b87a-6b8358f20fdc","type":"HelpTool"},{"attributes":{"callback":null,"end":40.4,"start":-0.40000000000000036},"id":"d674a386-bc25-4993-9302-6eee9edd31e4","type":"Range1d"},{"attributes":{"callback":null,"factors":["Ken Griffey","Ivan Rodriguez","Raul Ibanez","Albert Pujols","Robinson Cano","Melky Cabrera","Xavier Nady","Derek Jeter","Hideki Matsui","Jorge Posada"]},"id":"1158149a-bebb-4be5-8c36-9f0472c1a562","type":"FactorRange"},{"attributes":{},"id":"edadf5e8-08e7-437f-8268-3f393cecf62e","type":"CategoricalTicker"},{"attributes":{"plot":{"id":"bb622def-8156-419a-ab4b-004cc40cf4fb","subtype":"Chart","type":"Plot"},"ticker":{"id":"edadf5e8-08e7-437f-8268-3f393cecf62e","type":"CategoricalTicker"}},"id":"6d004b80-3621-44b0-a355-816670e9a25b","type":"Grid"}],"root_ids":["bb622def-8156-419a-ab4b-004cc40cf4fb"]},"title":"Bokeh Application","version":"0.12.4"}};
+              var render_items = [{"docid":"8a89063f-a168-45c3-a870-2d25e3d5df2c","elementid":"a97a097f-c72e-45d7-b920-8a569efe2946","modelid":"bb622def-8156-419a-ab4b-004cc40cf4fb"}];
+              
+              Bokeh.embed.embed_items(docs_json, render_items);
+            });
+          };
+          if (document.readyState != "loading") fn();
+          else document.addEventListener("DOMContentLoaded", fn);
+        })();
+        
+        </script>
+    </body>
+</html>
